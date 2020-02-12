@@ -34,8 +34,8 @@ const toast = (p:IToast) => {
   div.style.cssText = "position: fixed;bottom: 0;left: 0;width: 100%;transform: translateY(100%);transition: transform 0.3s ease-in-out;background: #444;padding: 23px 20px;display: flex;align-items: center;justify-content: space-between;z-index: 99;"
 
   // ESTILOS
-  span.style.cssText = "font-size: 1.1em;font-weight: bold;color: var(--white);"
-  btn.style.cssText = "appearance: none;border: none;outline: none;background: rgba(0, 0, 0, .4);color: var(--white);padding: 15px 25px;text-transform: uppercase;font-weight: bold;border-radius: 5px;cursor: pointer;"
+  span.style.cssText = "font-size: 1.1em;font-weight: bold;color:#fff;"
+  btn.style.cssText = "appearance: none;border: none;outline: none;background: rgba(0, 0, 0, .4);color:#fff;padding: 15px 25px;text-transform: uppercase;font-weight: bold;border-radius: 5px;cursor: pointer;"
 
   if (data.actionText) div.style.padding = "10px 20px";
   span.textContent = data.text;
