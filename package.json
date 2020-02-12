@@ -1,0 +1,28 @@
+{
+  "name": "xmd-toast",
+  "version": "1.0.0",
+  "description": "User Experience Material Design Toast",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsan-dev/xmd-toast.git"
+  },
+  "keywords": [
+    "xmd",
+    "toast",
+    "material-design"
+  ],
+  "author": "AlexSantos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexsan-dev/xmd-toast/issues"
+  },
+  "homepage": "https://github.com/alexsan-dev/xmd-toast#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
