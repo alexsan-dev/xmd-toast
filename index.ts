@@ -46,7 +46,8 @@ const toast = (p:IToast) => {
     if(data.action) data.action(e); 
     div.style.transform = "translateY(100%)";
     setTimeout(() => {
-      document.body.removeChild(div);
+      try { document.body.removeChild(div) }
+      catch { }
       if (data.onHide) data.onHide();
     }, time + 300);
   });
@@ -68,7 +69,8 @@ const toast = (p:IToast) => {
     }, time);
 
     setTimeout(() => {
-      document.body.removeChild(div);
+      try { document.body.removeChild(div) }
+      catch {}
       if (data.onHide) data.onHide();
     }, time + 300);
   }
