@@ -15,13 +15,31 @@ npm i xmd-toast
 ```javascript
 import toast from "xmd-toast";
 
+// HERE IS THE MAGIC!
+toast({ text:"Helo World" })
+
+// BETTER TOAST
 toast({
-  text:"Alert text"
+  text:"Alert text",
+  actionText: "Ok",
+  fixed:false,
+  time:5000,
+  action:() => console.log("Message from action"),
+  onHide:() => console.log("Hide toast"),
+})
+
+// TRY SHOW TOAST AFTER TOAST
+toast({
+  text:"Show toast",
+  actionText: "Throw",
+  action:() => {
+    toast({text: "New toast"})
+  }
 })
 ```
 
 ### TypeScript Compatible 😀
-
+#### Options:
 
 | Property   | Type     | Default   | Description                                |
 | ---------- | -------- | --------- | ------------------------------------------ |
