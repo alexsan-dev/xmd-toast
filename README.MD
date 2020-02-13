@@ -49,3 +49,6 @@ toast({
 | action     | Function | undefined | Call on action button click                | 
 | fixed      | Boolean  | false     | True: Toast never hide / False: Toast Hide | 
 | time       | Number   | 5000      | The lifetime of toast                      | 
+
+### Preview 👀
+[CodeSandbox](https://codesandbox.io/embed/peaceful-fire-vvlc5?expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark)
