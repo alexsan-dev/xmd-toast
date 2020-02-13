@@ -1,6 +1,6 @@
 <div align="center">
   <h1>XMATERIAL-DESIGN TOAST 🍞</h1>
-  <p>Throw little toast on bottom of the page with fixed text and action buttons</p>
+  <p>This library shows a small toast at the bottom of the screen, with a fixed text and action buttons and includes programmed and nested toasts.</p>
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
   <img src="https://badge.fury.io/js/xmd-toast.svg">
@@ -46,7 +46,7 @@ toast({
 | Text       | String   | "Alert"   | The main text of the toast                 | 
 | actionText | String   | "Confirm" | The text of the action button              | 
 | onHide     | Function | undefined | Call when the toast left the screen        | 
-| action     | Function | undefined | Call on action button click                | 
+| action     | Function | undefined | Call on action button click event          | 
 | fixed      | Boolean  | false     | True: Toast never hide / False: Toast Hide | 
 | time       | Number   | 5000      | The lifetime of toast                      | 
 

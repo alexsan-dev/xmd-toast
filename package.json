@@ -1,7 +1,7 @@
 {
   "name": "xmd-toast",
-  "version": "1.0.9",
-  "description": "User Experience Material Design Toast",
+  "version": "1.1.0",
+  "description": "This library shows a small toast at the bottom of the screen, with a fixed text and action buttons and includes programmed and nested toasts.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc"
