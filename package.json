@@ -1,6 +1,6 @@
 {
   "name": "xmd-toast",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "User Experience Material Design Toast",
   "main": "./dist/index.js",
   "scripts": {

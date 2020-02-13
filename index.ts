@@ -8,8 +8,8 @@ interface IToast {
 }
 
 const dataD:IToast = {
-  text:"Alerta",
-  actionText:"Aceptar",
+  text:"Alert",
+  actionText:"Confirm",
   onHide:() => {},
   action:() => {},
   fixed:false,
