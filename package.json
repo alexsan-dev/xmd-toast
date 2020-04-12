@@ -1,6 +1,6 @@
 {
   "name": "xmd-toast",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "1.1.0",
   "description": "This library shows a small toast at the bottom of the screen, with a fixed text and action buttons and includes programmed and nested toasts.",
   "main": "./dist/index.js",
